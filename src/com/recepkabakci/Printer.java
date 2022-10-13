@@ -2,9 +2,9 @@ package com.recepkabakci;
 
 public class Printer {
 
-	public static <E> void printArray(E[] inputArray) {
+	public static <T> void printArray(T[] inputArray) {
 		
-		for (E element : inputArray){
+		for (T element : inputArray){
 			System.out.println(element);
 		}
 	}	    
